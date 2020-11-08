@@ -70,6 +70,7 @@ let string = `
 #div1{
     animation: x 2s infinite linear;
 }
+/*大功告成！手机的细节没有展示也可以适应哦！*/
 `
 ;
 string2 = '';//储存处于当前递归的整个字符串
