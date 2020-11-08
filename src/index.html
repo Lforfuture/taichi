@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>简历demo</title>
+</head>
+<body>
+    <style id="style"></style>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        #demo{
+            word-break:break-all;
+        }
+        @media(max-width:500px){
+            #demo{
+                height: 50vh;
+                overflow: auto;
+            }
+            #div1{
+                position: absolute;
+                left:0;
+                right: 0;
+                bottom:0;
+                top:0;
+                margin: auto;
+                height: 30vh;
+                width: 30vh;
+            }
+            #wrapper{
+                position: relative;
+                height: 50vh;
+            }
+            #div1::before{
+                height: 15vh;
+                width: 15vh;
+            }
+            #div1::after{
+                height: 15vh;
+                width: 15vh;
+            }
+        }
+    </style>
+    <div id="demo"></div>
+    <div id="wrapper">
+        <div id="div1"></div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
