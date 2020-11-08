@@ -2,7 +2,7 @@ let demo = document.querySelector("#demo");
 let style = document.querySelector("#style");
 let n = 0;
 let string = `
-/* 你好，我是你爹
+/* 你好，我是凉风
  *  现在秀一下前端功底
  *  首先我准备一个div1
  */
